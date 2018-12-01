@@ -6,11 +6,6 @@ import logo from '../img/logo.svg'
 const Navbar = () => (
   <nav className="navbar is-transparent">
     <div className="container">
-      <div className="navbar-brand">
-        <Link to="/" className="navbar-item" title="Logo">
-          <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-        </Link>
-      </div>
       <div className="navbar-start">
         <Link className="navbar-item" to="/about">
           About
