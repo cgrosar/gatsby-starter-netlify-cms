@@ -6,11 +6,6 @@ import logo from '../img/logo.svg'
 const Navbar = () => (
   <nav className="navbar is-transparent">
     <div className="container">
-      <div className="navbar-brand">
-        <Link to="/" className="navbar-item" title="Logo">
-          <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-        </Link>
-      </div>
       <div className="navbar-start">
         <Link className="navbar-item" to="/about">
           About
@@ -18,24 +13,6 @@ const Navbar = () => (
         <Link className="navbar-item" to="/products">
           Products
         </Link>
-        <Link className="navbar-item" to="/contact">
-          Contact
-        </Link>
-        <Link className="navbar-item" to="/contact/examples">
-          Form Examples
-        </Link>
-      </div>
-      <div className="navbar-end">
-        <a
-          className="navbar-item"
-          href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className="icon">
-            <img src={github} alt="Github" />
-          </span>
-        </a>
       </div>
     </div>
   </nav>
