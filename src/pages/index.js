@@ -18,8 +18,9 @@ function BlogList({ items }) {
             <Link className="has-text-primary" to={post.fields.slug}>
               {post.frontmatter.title}
             </Link>
-            <span> &bull; </span>
-            <small>{post.frontmatter.date}</small>
+            <p className="article-summary--date">
+              <small>{post.frontmatter.date}</small>
+            </p>
           </p>
           <p>
             {post.excerpt}
