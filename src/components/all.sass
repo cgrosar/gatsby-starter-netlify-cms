@@ -9,6 +9,13 @@ $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 
+$white: #fff;
+$desire: rgba(230, 57, 70, 1);
+$honeydew: rgba(241, 250, 238, 1);
+$lightblue: rgba(168, 218, 220, 1);
+$queenblue: rgba(69, 123, 157, 1);
+$spacecadet: rgba(29, 53, 87, 1);
+
 .content .taglist
   list-style: none
   margin-bottom: 0
@@ -42,3 +49,21 @@ $body-color: #333
   margin-top: 0 !important
 
 @import "~bulma"
+
+.navbar-container
+  border-radius: 0 0 4px 4px
+  overflow: hidden
+  padding: 0 4px
+  &, .navbar-item, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:hover, .navbar-link.is-active
+    font-weight: bold
+    background-color: $queenblue
+    color: $honeydew
+
+@include until($desktop)
+  .navbar-item
+    text-align: center
+    border-bottom: 1px solid $spacecadet
+
+.article-summary 
+  border: 1px solid lighten($queenblue, 45%)
+  padding: 2em 4em 
