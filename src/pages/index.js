@@ -2,6 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import arrival from '../img/arrival.jpg'
+import treatment from '../img/treatment.jpg'
+import leave from '../img/leave.jpg'
 
 function BlogList({ items }) {
   return (
@@ -41,15 +44,15 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="columns">
               <div className="column is-one-third">
-                <img src="https://via.placeholder.com/800x450" alt="Person entering hospital" />
+                <img src={arrival} alt="Person entering hospital" />
                 {Boolean(data.leftData) && <BlogList items={data.leftData.edges} />}
               </div>
               <div className="column is-one-third">
-                <img src="https://via.placeholder.com/800x450" alt="Person begin treated in hospital" />
+                <img src={treatment} alt="Person begin treated in hospital" />
                 {Boolean(data.centerData) && <BlogList items={data.centerData.edges} />}
               </div>
               <div className="column">
-                <img src="https://via.placeholder.com/800x450" alt="Person leaving hospital" />
+                <img src={leave} alt="Person leaving hospital" />
                 {Boolean(data.rightData) && <BlogList items={data.rightData.edges} />}
               </div>
             </div>
