@@ -11,25 +11,12 @@ function BlogList({ items }) {
     items
       .map(({ node: post }) => (
         <div
-          className="content article-summary"
+          className="content article-link"
           key={post.id}
         >
-          <p>
-            <Link className="has-text-primary" to={post.fields.slug}>
-              {post.frontmatter.title}
-            </Link>
-            <p className="article-summary--date">
-              <small>{post.frontmatter.date}</small>
-            </p>
-          </p>
-          <p>
-            {post.excerpt}
-            <br />
-            <br />
-            <Link className="button is-small" to={post.fields.slug}>
-              Keep Reading →
-                    </Link>
-          </p>
+          <Link className="has-text-primary" to={post.fields.slug}>
+            {post.frontmatter.title}
+          </Link>
         </div>
       ))
   );
