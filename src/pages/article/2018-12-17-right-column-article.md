@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: article-post
 column: right
 title: Right column article
 date: 2018-12-17T14:02:14.137Z

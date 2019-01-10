@@ -69,7 +69,7 @@ export const pageQuery = graphql`
 query IndexQuery {
   leftData: allMarkdownRemark(
     sort: { order: DESC, fields: [frontmatter___date] },
-    filter: { frontmatter: { templateKey: { eq: "blog-post" }, column: { eq: "left" }}}
+    filter: { frontmatter: { templateKey: { eq: "article-post" }, column: { eq: "left" }}}
   ) {
     edges {
       node {
@@ -89,7 +89,7 @@ query IndexQuery {
   }
   centerData: allMarkdownRemark(
     sort: { order: DESC, fields: [frontmatter___date] },
-    filter: { frontmatter: { templateKey: { eq: "blog-post" }, column: { eq: "center" }}}
+    filter: { frontmatter: { templateKey: { eq: "article-post" }, column: { eq: "center" }}}
   ) {
     edges {
       node {
@@ -109,7 +109,7 @@ query IndexQuery {
   }
   rightData: allMarkdownRemark(
     sort: { order: DESC, fields: [frontmatter___date] },
-    filter: { frontmatter: { templateKey: { eq: "blog-post" }, column: { eq: "right" }}}
+    filter: { frontmatter: { templateKey: { eq: "article-post" }, column: { eq: "right" }}}
   ) {
     edges {
       node {
