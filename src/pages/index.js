@@ -32,15 +32,24 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="columns">
               <div className="column is-one-third">
-                <img className="column-image" src={arrival} alt="Person entering hospital" />
+                <a href="#">
+                  <img className="column-image" src={arrival} alt="Person entering hospital" />
+                  <span>Internare</span>
+                </a>
                 {Boolean(data.leftData) && <BlogList items={data.leftData.edges} />}
               </div>
               <div className="column is-one-third">
-                <img className="column-image" src={treatment} alt="Person begin treated in hospital" />
+                <a href="#">
+                  <img className="column-image" src={treatment} alt="Person begin treated in hospital" />
+                  <span>Spitalizare</span>
+                </a>
                 {Boolean(data.centerData) && <BlogList items={data.centerData.edges} />}
               </div>
               <div className="column">
-                <img className="column-image" src={leave} alt="Person leaving hospital" />
+                <a href="#">
+                  <img className="column-image" src={leave} alt="Person leaving hospital" />
+                  <p>Externare</p>
+                </a>
                 {Boolean(data.rightData) && <BlogList items={data.rightData.edges} />}
               </div>
             </div>
