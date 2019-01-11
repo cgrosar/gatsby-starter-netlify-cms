@@ -22,7 +22,7 @@ export const ArticlePostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light article-title">
               {title}
             </h1>
             <p>{description}</p>

@@ -53,8 +53,21 @@ $spacecadet: rgba(29, 53, 87, 1);
 // custom css
 
 .column-image
-  margin-bottom: 1rem
   border-radius: 4px 4px 0 0
+  display: block
+  transition: all .2s
+  box-shadow: 0 0px 0px rgba(0,0,0,0)
+  &:hover
+    transform: scale(1.05)
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.3)
+  & + span
+    margin-bottom: 1rem
+    display: block
+    background-color: $queenblue
+    color: $white
+    text-align: center
+    padding: 5px
+    font-size: 1.5rem
 
 .content .taglist
   align-items: flex-start
@@ -81,3 +94,18 @@ $spacecadet: rgba(29, 53, 87, 1);
 
 .article-summary--date
   font-size: 0.85rem
+
+.column-title
+  margin-bottom: 1rem
+  padding-bottom: 0.5rem
+  border-bottom: 1px solid $queenblue
+
+.section-heading
+  font-size: 1.5rem
+
+.has-border
+  border: 1px solid $queenblue
+  padding: 1.5rem
+
+.article-title.title
+  margin-bottom: 2.5rem

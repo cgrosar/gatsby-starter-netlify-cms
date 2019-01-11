@@ -31,26 +31,56 @@ export default class IndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="columns">
+              <div className="column is-full section-heading">
+                Partea practica
+              </div>
+            </div>
+
+            <div className="columns">
               <div className="column is-one-third">
-                <a href="#">
+                <a href="/article/2016-12-17-internare">
                   <img className="column-image" src={arrival} alt="Person entering hospital" />
                   <span>Internare</span>
                 </a>
-                {Boolean(data.leftData) && <BlogList items={data.leftData.edges} />}
               </div>
               <div className="column is-one-third">
-                <a href="#">
+                <a href="/article/2017-12-17-spitalizare">
                   <img className="column-image" src={treatment} alt="Person begin treated in hospital" />
                   <span>Spitalizare</span>
                 </a>
-                {Boolean(data.centerData) && <BlogList items={data.centerData.edges} />}
               </div>
               <div className="column">
-                <a href="#">
+                <a href="/article/2018-12-17-externare">
                   <img className="column-image" src={leave} alt="Person leaving hospital" />
-                  <p>Externare</p>
+                  <span>Externare</span>
                 </a>
-                {Boolean(data.rightData) && <BlogList items={data.rightData.edges} />}
+              </div>
+            </div>
+            
+            <div className="columns">
+              <div className="column is-full section-heading">
+                Partea teoretica
+              </div>
+            </div>
+            
+            <div className="columns">
+              <div className="column is-one-third">
+                <div className="has-border">
+                  <p className="column-title">Medicina interna</p>
+                  {Boolean(data.leftData) && <BlogList items={data.leftData.edges} />}
+                </div>
+              </div>
+              <div className="column is-one-third">
+                <div className="has-border">
+                  <p className="column-title">Gereatrie (teme majore)</p>
+                  {Boolean(data.centerData) && <BlogList items={data.centerData.edges} />}
+                  </div>
+              </div>
+              <div className="column">
+                <div className="has-border">
+                  <p className="column-title">Medicina de recuperare</p>
+                  {Boolean(data.rightData) && <BlogList items={data.rightData.edges} />}
+                </div>
               </div>
             </div>
           </div>
