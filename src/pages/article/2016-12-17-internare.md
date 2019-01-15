@@ -6,4 +6,4 @@ tags:
   - article
   - topic1
 ---
-Aufnahme
+[Aufnahme](/article/2019-01-15-tdtrctrc)
