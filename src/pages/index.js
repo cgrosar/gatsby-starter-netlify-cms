@@ -32,53 +32,53 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="columns">
               <div className="column is-full section-heading">
-                Partea practica
+                Der praktische Teil
               </div>
             </div>
 
             <div className="columns">
               <div className="column is-one-third">
                 <a href="/article/2016-12-17-internare">
-                  <img className="column-image" src={arrival} alt="Person entering hospital" />
-                  <span>Internare</span>
+                  <img className="column-image" src={arrival} alt="Eintritt" />
+                  <span>Eintritt</span>
                 </a>
               </div>
               <div className="column is-one-third">
                 <a href="/article/2017-12-17-spitalizare">
-                  <img className="column-image" src={treatment} alt="Person begin treated in hospital" />
-                  <span>Spitalizare</span>
+                  <img className="column-image" src={treatment} alt="Aufenthalt" />
+                  <span>Aufenthalt</span>
                 </a>
               </div>
               <div className="column">
                 <a href="/article/2018-12-17-externare">
-                  <img className="column-image" src={leave} alt="Person leaving hospital" />
-                  <span>Externare</span>
+                  <img className="column-image" src={leave} alt="Austrittsvorbereitung" />
+                  <span>Austrittsvorbereitung</span>
                 </a>
               </div>
             </div>
             
             <div className="columns">
               <div className="column is-full section-heading">
-                Partea teoretica
+                Der theoretische Teil
               </div>
             </div>
             
             <div className="columns">
               <div className="column is-one-third">
                 <div className="has-border">
-                  <p className="column-title">Medicina interna</p>
+                  <p className="column-title">Allgemeine Innere Medizin</p>
                   {Boolean(data.leftData) && <BlogList items={data.leftData.edges} />}
                 </div>
               </div>
               <div className="column is-one-third">
                 <div className="has-border">
-                  <p className="column-title">Gereatrie (teme majore)</p>
+                  <p className="column-title">Hauptthemen Geriatrie</p>
                   {Boolean(data.centerData) && <BlogList items={data.centerData.edges} />}
                   </div>
               </div>
               <div className="column">
                 <div className="has-border">
-                  <p className="column-title">Medicina de recuperare</p>
+                  <p className="column-title">Physikalische Medizin und Rehabilitation</p>
                   {Boolean(data.rightData) && <BlogList items={data.rightData.edges} />}
                 </div>
               </div>
