@@ -7,6 +7,7 @@ description: |+
 tags:
   - Austritt
   - KoGu Trinknahrung
+  - Austrittsbericht
 ---
 •	Indikation für Trinknahrung nach Austritt vorhanden? Mit Pat. das besprechen -> Unterschrift bekommen, bei Bichsel Lab KoGu faxen
 
