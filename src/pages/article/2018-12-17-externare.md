@@ -13,7 +13,7 @@ tags:
 
 •	Hat hier der Pat. O2 vorwiegend benötigt? Braucht auch für z.H.?
 
-•	Dg. Liste definitivieren:
+•	Dg. Liste b.B. anpassen:
 
 	Hauptdiagnose (HD) Cerebrovaskulärer Insult am …
 
@@ -25,7 +25,7 @@ tags:
 
 	Stroke work-up
 
-	Ätiologie: a.e. kardio-embolisch bei neu diagnostiziertem Vorhofflimmern
+	Aetiologie: a.e. kardio-embolisch bei neu diagnostiziertem Vorhofflimmern
 
 	Therapeutisch: Soforttherapie: Konservativ/ Thrombolyse, Umstellung der Thrombozytenaggregation von Aspirin auf Plavix/ Doppelte Antiaggregationstherapie 
 
@@ -43,7 +43,7 @@ tags:
 
 \-	Laborchemische/ BD/ BZ Kontrollen bei HA nötig (wann?)
 
-\-	Osteoporose: vit. D, Ca, Bisphosphonat
+\-	Osteoporose: vit. D, Ca, Biphosphonat
 
 \-	Empfehl. Bzgl. Ernährung
 
