@@ -7,4 +7,4 @@ tags:
   - article
   - topic1
 ---
-Externare
+Austritt
