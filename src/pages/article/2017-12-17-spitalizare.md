@@ -3,8 +3,8 @@ templateKey: article-post
 title: Aufenthalt
 date: 2016-12-17T15:04:10.000Z
 tags:
-  - article
-  - topic1
+  - Labor
+  - Aufenthalt
 ---
 •	Check Eintrittslabor: 
 
