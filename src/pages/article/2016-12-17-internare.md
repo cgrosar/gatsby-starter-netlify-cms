@@ -15,6 +15,26 @@ Bei Patient:
 * Assessment („Einschätzung“ oder besser „umfassender medizinischer und sozialer Problemanalyse“)
 * klinische Status
 
+•	Medis Liste überprüfen: 
+
+o	Indikationen
+
+o	Negativ Liste Insel berücksichtigen
+
+o	Interaktionen Check www.uptodate lexicomp
+
+o	Antiepileptika NIE umverordnen (kein Wechsel auf Generikum oder Original, nur genau was der Pat gehabt hat)
+
+o	Hat der Pat. Marcoumar? -> Formular öffnen
+
+o	Hat der Pat. Basis Insulin oder/und NSS? -> Formular öffnen
+
+o	nicht vorhandene Medis (in RS mit PP und OA: regulär oder gleichentags?) per Rezept bestellen.
+
+o	Reserve verordnen
+
+•	Standard Verordnungen Tag 1-3, BZTP bei insulinpflichtiger Diabetes oder bei fehlende Dokumentation in Vorspital einer nicht-insulinpflichtige DM Typ 2.
+
 Diagnose Liste überarbeiten und geriatrisch gewichtet «priorisieren»:
 
 „AZ Verschlechterung“ ggf. als "Dekonditionierung" reformulieren. Ebenfalls „dementielle Entwicklung“ oder „Stolpersturz“ sollte als Begriffe vermieden werden. 
@@ -43,26 +63,6 @@ Diagnose Liste überarbeiten und geriatrisch gewichtet «priorisieren»:
 
 \-	Weitere Diagnosen (falls mehr als 10-13 Diagnosen)
 
-•	Medis Liste überprüfen: 
-
-o	Indikationen
-
-o	Negativ Liste Insel berücksichtigen
-
-o	Interaktionen Check www.uptodate lexicomp
-
-o	Antiepileptika NIE umverordnen (kein Wechsel auf Generikum oder Original, nur genau was der Pat gehabt hat)
-
-o	Hat der Pat. Marcoumar? -> Formular öffnen
-
-o	Hat der Pat. Basis Insulin oder/und NSS? -> Formular öffnen
-
-o	nicht vorhandene Medis (in RS mit PP und OA: regulär oder gleichentags?) per Rezept bestellen.
-
-o	Reserve verordnen
-
-•	Standard Verordnungen Tag 1-3, BZTP bei Diabetiker
-
 o	kein routinemässiges Verwenden von Lipidstatus, NT- proBNP, Magnesium, D-dimer (v.a. bei suffizient antikoagulierte Pat.), keine Amylase/ Lipase Nachkontrolle bei bek. Pathologie
 
 •	Besprechung mit OA/OÄ: Unklarheiten, Labor initial, geplante Aufenthaltsdauer
@@ -71,7 +71,7 @@ o	kein routinemässiges Verwenden von Lipidstatus, NT- proBNP, Magnesium, D-dime
 
 o	BB, Krea (ggf. Harnstoff bei bekannte Ni), E-Lyte: Na, K, Ca, Albumin,ggf. »Lebercheck»: ALT, Alk.Phos und Bilirubin
 
-o	HbA1c bei Diabetikern, wenn kein Wert in der letzte 2 Monaten
+o	HbA1c bei Diabetikern, wenn kein Wert in der letzten 2 Monaten
 
 o	1x Digoxin Spiegel bestimmen falls kein aktuelle Wert vorhanden
 
